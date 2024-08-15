@@ -18,5 +18,5 @@ get("/dice/:random_dice/:random_sides") do
       @rolls.push(die)
     end
 
-   erb(:fifty_six)
+   erb(:flexible)
   end
